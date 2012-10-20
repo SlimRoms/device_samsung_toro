@@ -1,12 +1,7 @@
 [
     {
-        "repository":   "SlimRoms/device_samsung_tuna",
-        "target_path":  "device/samsung/tuna",
-        "branch":     "jb"
-    },
-    {
-        "repository":   "SlimRoms/proprietary_vendor_broadcom",
-        "target_path":  "vendor/broadcom",
+        "repository":   "SlimRoms/proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
         "branch":     "jb"
     },
     {
@@ -20,8 +15,19 @@
         "branch":     "jb"
     },
     {
-        "repository":   "SlimRoms/proprietary_vendor_samsung",
-        "target_path":  "vendor/samsung",
+        "repository":   "SlimRoms/proprietary_vendor_broadcom",
+        "target_path":  "vendor/broadcom",
         "branch":     "jb"
+    },
+    {
+        "repository":   "SlimRoms/device_samsung_tuna",
+        "target_path":  "device/samsung/tuna",
+        "branch":     "jb"
+    },
+    {
+        "repository":  "SlimRoms/kernel_samsung_tuna",
+        "target_path": "kernel/samsung/tuna",
+        "branch": "jb"
     }
+ 
 ]
