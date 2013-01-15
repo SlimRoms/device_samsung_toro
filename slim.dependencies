@@ -38,10 +38,5 @@
         "repository":  "SlimRoms/kernel_samsung_tuna",
         "target_path": "kernel/samsung/tuna",
         "branch": "jb4.2"
-    },
-    {
-        "repository": "mnm9994u/prebuilt",
-        "target_path": "prebuilt",
-        "branch": "master"
     }
 ]
