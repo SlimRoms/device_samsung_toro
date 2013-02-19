@@ -26,8 +26,8 @@ PRODUCT_COPY_FILES += \
 # Release name
 PRODUCT_RELEASE_NAME := toro
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT="google/mysid/toro:4.2.1 JOP40D eng.ar.20121128.230418 release-keys"
-PRIVATE_BUILD_DESC="mysid-userdebug 4.2.1 JOP40D 230418 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT="google/mysid/toro:4.2.2/JDQ39/125147:user/release-keys"
+PRIVATE_BUILD_DESC="mysid-user 4.2.2 JDQ39 125147 release-keys"
 
 PRODUCT_NAME := slim_toro
 PRODUCT_DEVICE := toro
