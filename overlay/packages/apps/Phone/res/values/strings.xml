@@ -16,13 +16,6 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Mobile network settings, network mode choices for a device supporting CDMA and LTE [CHAR LIMIT=25] -->
-    <string-array name="preferred_network_mode_choices_lte">
-        <item>LTE/CDMA</item>
-        <item>CDMA/EvDo auto</item>
-    </string-array>
-    <string-array name="preferred_network_mode_values_lte" translatable="false">
-
     <string name="cell_broadcast_sms">Emergency Alerts SMS</string>
 
     <!-- Bug in RIL. It believes 7 is CDMA/LTE/EVDO even though that contradicts ril.h -->
