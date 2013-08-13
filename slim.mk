@@ -1,5 +1,6 @@
 # Boot animation
-TARGET_BOOTANIMATION_NAME := vertical-720x1280
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/toro/full_toro.mk)
@@ -12,9 +13,6 @@ $(call inherit-product, vendor/slim/config/common_nexus.mk)
 
 # Inherit torch settings
 $(call inherit-product, vendor/slim/config/common_ledflash.mk)
-
-PRODUCT_COPY_FILES +=  \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
