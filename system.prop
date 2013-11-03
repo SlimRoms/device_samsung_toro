@@ -21,3 +21,10 @@ ro.telephony.default_network=7
 
 # GPU producer to CPU consumer not supported
 ro.bq.gpu_to_cpu_unsupported=1
+
+ro.telephony.default_cdma_sub=0
+ro.cdma.home.operator.numeric=310004
+ro.cdma.home.operator.alpha=Verizon
+ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83
+ro.cdma.data_retry_config=default_randomization=20 00,0,0,120000,180000,540000,960000
+ro.cdma.otaspnumschema=SELC,1,80,99
