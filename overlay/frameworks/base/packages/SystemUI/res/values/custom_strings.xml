@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- instead of "2G/3G Pref" show "3G/CDMA" -->
+    <string name="network_3G">3G/CDMA</string>
+
+</resources>
