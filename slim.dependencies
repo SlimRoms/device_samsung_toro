@@ -2,11 +2,11 @@
     {
         "repository":   "SlimRoms/device_samsung_tuna",
         "target_path":  "device/samsung/tuna",
-        "branch":     "kk4.4"
+        "branch":     "lp5.0"
     },
     {
         "repository":  "SlimRoms/kernel_samsung_tuna",
         "target_path": "kernel/samsung/tuna",
-        "branch": "kk4.4"
+        "branch": "lp5.0"
     }
 ]
